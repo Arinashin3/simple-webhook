@@ -46,7 +46,7 @@ func SnowHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		_ = json.NewEncoder(snowData).Encode(&alertData)
 		print(w)
-
+		//
 	case "PUT":
 		io.WriteString(w, "PUT\n")
 	case "DELETE":
