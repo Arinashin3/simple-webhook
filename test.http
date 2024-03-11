@@ -1,0 +1,7 @@
+POST http://localhost:5001/api/v1/servicenow
+Content-Type: application/json
+
+{
+  "alertname": "test",
+  "cnt": 54
+}
